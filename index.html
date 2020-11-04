@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Let's play a game</title>
+		<script type="text/javascript" src="index.js"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Piedra&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+  
+	<body>
+	  	<div class="container">
+	  		<h1>Let's play a game</h1>
+	  		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKk_HyGXO1oGQEjOY5WYD_CMnHWFBlIuzsyhytNKq6fwnJCZ96&usqp=CAU" alt="saw">
+			<p>J'ai lancé un dé non truqué à 6 faces, essayez d'en deviner le résultat. Je vous indiquerai à chaque essai si c'est plus petit ou plus grand.</p>
+			<form>
+				<label for="essai">Entrez votre proposition : </label>
+				<input type="text" id="essai" name="essai">
+				<input id="buttonSubmit" type="button" value="Envoyer ma réponse" onClick="verifyGuess()" />
+			</form>
+				<p id="print_try"> </p>
+				<p id="clue"> </p>
+				<p id="end"> </p>
+				<p id="button-appear"> </p>
+		</div>
+	</body>
+</html>

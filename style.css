@@ -1,0 +1,52 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Piedra, sans-serif;
+}
+
+h1 {
+	font-family: Metal Mania;
+	color : #e00;
+}
+
+.container {
+	margin-top: 100px;
+	max-width: 1180px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#buttonSubmit {
+	padding: 10px 20px;
+	border-radius: 2px;
+	background-color: #fcc;
+	color : #333;
+}
+
+#buttonSubmit:hover {
+	background-color: #e00;
+	color : #fff;
+	font-family: Metal Mania, sans-serif;
+	font-size: 12pt;
+}
+
+#buttonRefresh {
+	padding: 10px 20px;
+	border-radius: 2px;
+}
+
+#buttonRefresh:hover {
+	background-color: #333;
+	color : #eee;	
+}
+
+input[type = text] {
+	text-align: center;
+	border: 1px solid #F5C5C5;
+	border-radius: 5px;
+	width: 40px;
+	height: 40px;
+	box-shadow: 1px 1px 2px #e00 inset;
+	margin: 20px 40px;
+	}
